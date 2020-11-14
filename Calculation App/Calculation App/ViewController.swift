@@ -12,13 +12,14 @@ class ViewController: UIViewController {
     
     var carModel = car()
     
+    
+    //finalで不可
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         carModel.frontwheel = 10
         carModel.rearwheel = 10
-        
     }
+    
     @IBAction func doAction(_ sender: Any) {
         carModel.drive()
         carModel.move(toBack: "後ろに行く")

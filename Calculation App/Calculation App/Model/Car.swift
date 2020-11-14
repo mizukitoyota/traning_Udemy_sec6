@@ -12,13 +12,13 @@ class car {
     var frontwheel = 0
     var rearwheel = 0
     
-    //イニシャライズー初期化
+    //イニシャライズー初期化ー呼ばれるタイミングー
     init(){
         frontwheel = 0
         rearwheel = 0
         
     }
-    //MVCモデル(Model View Controller)
+    //MVCモデル(Model View Controller)-モデルの定義ー
     
     //機能、
     func drive(){
