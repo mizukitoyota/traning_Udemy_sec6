@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868D402A255F95F50096E3DA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D4029255F95F50096E3DA /* Car.swift */; };
 		86F67B4E255F73B100B6B2D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F67B4D255F73B100B6B2D3 /* AppDelegate.swift */; };
 		86F67B50255F73B100B6B2D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F67B4F255F73B100B6B2D3 /* SceneDelegate.swift */; };
 		86F67B52255F73B100B6B2D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F67B51255F73B100B6B2D3 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		868D4029255F95F50096E3DA /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		86F67B4A255F73B100B6B2D3 /* Calculation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86F67B4D255F73B100B6B2D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86F67B4F255F73B100B6B2D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		868D4028255F95BB0096E3DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				868D4029255F95F50096E3DA /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		86F67B41255F73B100B6B2D3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		86F67B4C255F73B100B6B2D3 /* Calculation App */ = {
 			isa = PBXGroup;
 			children = (
+				868D4028255F95BB0096E3DA /* Model */,
 				86F67B4D255F73B100B6B2D3 /* AppDelegate.swift */,
 				86F67B4F255F73B100B6B2D3 /* SceneDelegate.swift */,
 				86F67B51255F73B100B6B2D3 /* ViewController.swift */,
@@ -140,6 +151,7 @@
 			files = (
 				86F67B52255F73B100B6B2D3 /* ViewController.swift in Sources */,
 				86F67B4E255F73B100B6B2D3 /* AppDelegate.swift in Sources */,
+				868D402A255F95F50096E3DA /* Car.swift in Sources */,
 				86F67B50255F73B100B6B2D3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Calculation-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.training.Calculation-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
